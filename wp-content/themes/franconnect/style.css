@@ -978,6 +978,17 @@ a.phone_number {
 		display: none;
 	}
 	
+	.new_banner {
+		width:100%;
+		background:url(images/tl-banner.jpg) top center;
+		background: cover;
+		text-align: center;
+	}
+	
+	.new_banner h1 {
+		color:#fff !important;
+	}
+	
 	
 	@media screen and (min-width: 300px)  {
 	
@@ -1024,6 +1035,8 @@ img.aligncenter {
 }
 
 }
+
+
 	
 
 

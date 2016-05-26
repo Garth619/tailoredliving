@@ -35,7 +35,7 @@
 	<div class="header">
 		<div class="inner_header">
 			<div class="logo_wrapper">
-				<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.png"/>
+				<img class="logo" src="<?php bloginfo('template_directory');?>/images/tl-logo.jpg"/>
 				
 				<span class="location_name"><?php the_field('location_name', 'option'); ?></span><!-- location_name -->
 			</div><!-- logo_wrapper -->
@@ -47,8 +47,14 @@
 	<div class="main">
 		
 		<div id="content">
+			
+			<div class="new_banner">
+				
+				<h1><?php the_field('title');?></h1>
+				
+			</div><!-- new_banner -->
 		
-			<h1><?php the_field('title');?></h1>
+			
 			
 			<?php get_template_part( 'loop', 'page' ); ?>
 
