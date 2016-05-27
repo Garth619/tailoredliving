@@ -65,7 +65,7 @@ input,
 textarea,
 .page-title span,
 .pingback a.url {
-	font-family: "futura-pt",sans-serif;
+	font-family: 'Lato', sans-serif;
 }
 h3#comments-title,
 h3#reply-title,
@@ -842,7 +842,8 @@ h3#reply-title {
 .header {
 	text-align: center;
 	padding:14px 0;
-	border-bottom:#000 1px solid;
+	border-bottom:grey 1px solid;
+	font-family: 'Oswald', sans-serif;
 }
 
 .logo {
@@ -983,11 +984,37 @@ a.phone_number {
 		background:url(images/tl-banner.jpg) top center;
 		background: cover;
 		text-align: center;
+		background-color: rgba(0, 0, 0, 0.5);
+		border:3px #fff solid;
+		-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+		
 	}
 	
-	.new_banner h1 {
-		color:#fff !important;
+	#content .new_banner h1 {
+		color:#fff;
+		font-family: 'Oswald', sans-serif;
+		text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+		padding:50px 10px;
+		margin-bottom: 0;
 	}
+	
+	.cycle-slideshow {
+		border:3px #fff solid;
+		-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+		
+	}
+	
+	.slide {
+		
+	}
+	
+	.os-responsive, .os-responsive-icon-only {
+     padding-right: 0px !important;
+   }
 	
 	
 	@media screen and (min-width: 300px)  {
@@ -997,8 +1024,16 @@ a.phone_number {
 		margin:0;
 	}
 	
+	}
 	
-}
+	@media screen and (min-width: 421px)  {
+		
+		.os-responsive, .os-responsive-icon-only {
+    	padding-right: 55px !important;
+   	}
+		
+		
+	}
 
 
 @media screen and (min-width: 700px)  {

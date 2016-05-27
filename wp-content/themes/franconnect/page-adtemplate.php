@@ -23,9 +23,10 @@
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link href='https://fonts.googleapis.com/css?family=Oswald|Lato' rel='stylesheet' type='text/css'>
 <?php wp_head(); ?>
-<script src="https://use.typekit.net/fae3bee.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/cycle2.js"></script>
+
 <?php the_field('tracking_code');?>
 <?php the_field('google_analytics');?>
 </head>
@@ -57,6 +58,23 @@
 			
 			
 			<?php get_template_part( 'loop', 'page' ); ?>
+			
+			
+			<div class="slideshow_wrapper">
+				
+				<span id=prev>&lt;Prev </span>
+        <span id=next> Next&gt;</span>
+			
+				<div class="cycle-slideshow" data-cycle-prev="#prev" data-cycle-next="#next">
+									 
+					<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
+					<img class="slide"src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
+					<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
+									 
+									 
+				</div><!-- cycle slideshow -->
+									 
+			</div><!-- slideshow_wrapper -->
 
 		</div><!-- content -->
 		
