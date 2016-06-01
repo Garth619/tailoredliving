@@ -1117,6 +1117,11 @@ box-shadow: -1px 0px 1px 0px rgba(0,0,0,0.36);
 	line-height:1.1;
 	margin-top:15px;
 }
+
+
+html.wf-inactive div.entry-content div.oss_horizontal_share {
+	display:none !important;
+}
 	
 	
 	@media screen and (min-width: 300px)  {

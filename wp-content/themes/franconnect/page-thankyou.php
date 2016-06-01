@@ -19,33 +19,14 @@
 <head>
 <meta charset="<?php bloginfo( 'charset' ); ?>" />
 <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0">
-<title><?php
-	/*
-	 * Print the <title> tag based on what is being viewed.
-	 */
-	global $page, $paged;
-
-	wp_title( '|', true, 'right' );
-
-	// Add the blog name.
-	bloginfo( 'name' );
-
-	// Add the blog description for the home/front page.
-	$site_description = get_bloginfo( 'description', 'display' );
-	if ( $site_description && ( is_home() || is_front_page() ) )
-		echo " | $site_description";
-
-	// Add a page number if necessary:
-	if ( ( $paged >= 2 || $page >= 2 ) && ! is_404() )
-		echo esc_html( ' | ' . sprintf( __( 'Page %s', 'twentyten' ), max( $paged, $page ) ) );
-
-	?></title>
+<title><?php the_field('title');?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
+<link href='https://fonts.googleapis.com/css?family=Oswald|Lato' rel='stylesheet' type='text/css'>
 <?php wp_head(); ?>
-<script src="https://use.typekit.net/fae3bee.js"></script>
-<script>try{Typekit.load({ async: true });}catch(e){}</script>
+<script type="text/javascript" src="<?php bloginfo('template_directory');?>/cycle2.js"></script>
+
 <?php the_field('tracking_code');?>
 <?php the_field('google_analytics');?>
 </head>
@@ -55,7 +36,7 @@
 	<div class="header">
 		<div class="inner_header">
 			<div class="logo_wrapper">
-				<img class="logo" src="<?php bloginfo('template_directory');?>/images/logo.png"/>
+				<img class="logo" src="<?php bloginfo('template_directory');?>/images/tl-logo.jpg"/>
 				
 				<span class="location_name"><?php the_field('location_name', 'option'); ?></span><!-- location_name -->
 			</div><!-- logo_wrapper -->
@@ -66,34 +47,66 @@
 	
 	<div class="main">
 		
-		<div id="content" style="width:100%;">
-		
-			<h1><?php the_field('title');?></h1>
+		<div id="content">
 			
-			<?php get_template_part( 'loop', 'page' ); ?>
+			<div class="new_banner">
+				
+				<h1><?php the_field('title');?></h1>
+				
+			</div><!-- new_banner -->
+		
+			
+			
+			<?php // get_template_part( 'loop', 'page' ); ?>
+			
+			
+			
 
 		</div><!-- content -->
 		
 				
+		<div class="mobile_copyright">
+	<span>&copy; 2016 2016 Tailored Living, LLC. All rights reserved. Each franchise independently owned and operated. Tailored Living featuring PremierGarage is a trademark of Tailored Living, LLC and a Home Franchise Concepts brand. </span>
+</div><!-- mobile_copyright -->
+		
 	</div><!-- main -->
 
 
 	
-<?php // get_template_part( 'loop', 'page' ); ?> 
+
 
 
 <div class="sticky_footer">
 	
-	<a href="#form" class="schedule">Schedule Your In-Home Consultation</a>
+<!-- 	<a href="#form" class="schedule">Schedule Your In-Home Consultation</a> -->
+
+<div class="consultaion">
+	
+	
+	<a href="#form">Free Consultation</a>
+	
+	
+</div><!-- consultaion -->
+
+
+<div class="call_now">
+	
+	
+	<a href="tel:<?php the_field('phone_number', 'option'); ?>">Call Now</a>
+	
+	
+</div><!-- call_now -->
 	
 	
 	
 </div><!-- sticky_footer -->
 
+
+
 <div class="desktop_footer">
 	
 	<div class="inner_footer">
-		<span>&copy; 2016 Budget Blinds, Inc. | All Rights Reserved</span>
+		<span>&copy; 2016 2016 Tailored Living, LLC. All rights reserved. <br/>Each franchise independently owned and operated. Tailored Living featuring PremierGarage is a trademark of Tailored Living, LLC and a Home Franchise Concepts brand. </span>
 	</div><!-- inner_footer -->
 
 </div><!-- desktop_footer -->
