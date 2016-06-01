@@ -883,7 +883,7 @@ a.phone_number {
 }
 
 .sticky_footer {
-/* 	background:#7e9aa6; */
+	background:#fff;
 	width:100%;
 	position:fixed;
 	bottom:0;
@@ -892,20 +892,22 @@ a.phone_number {
 	color:#fff;
 	font-family: 'Oswald', sans-serif;
 	
+	
 }
 
 .consultaion {
-	width:50%;
+	width:49%;
 	float:left;
 	background:#8dc641;
 	padding:10px 0;
 	font-size:20px;
+	
 }
 
 
 .call_now {
 	width:50%;
-	float:left;
+	float:right;
 	background:#009ddc;
 	padding:10px 0;
 	font-size:20px;
