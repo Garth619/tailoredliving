@@ -70,42 +70,13 @@
 				
 				
 				<div class="cycle-slideshow" data-cycle-timeout=0 data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-swipe=true data-cycle-swipe-fx=fade data-cycle-caption="#custom-caption" data-cycle-caption-template="Solution {{slideNum}} of {{slideCount}}" data-cycle-slides="> .slide">
+					
+					<!-- data-cycle-auto-height=container -->
 	    
 	    
 	    <div class="slide">
 		    
 		    <img src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
-		   
-		    
-	    </div><!-- slide -->
-	    
-	    
-	    <div class="slide">
-		    
-		    <img src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
-		   		    
-	    </div><!-- slide -->
-	    
-
-				</div><!-- cycle slideshow -->
-				
-				
-				
-				
-				
-				
-				
-				
-				
-									 
-			</div><!-- slideshow_wrapper -->
-			
-			<div class="cycle-slideshow" data-cycle-timeout=0 data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-swipe=true data-cycle-swipe-fx=fade data-cycle-slides="> .slide" data-cycle-auto-height=container>
-	    
-	    
-	    <div class="slide">
-		    
-		   
 		    <div class="my_captions">
 			    
 			    <h1>1. Organized Work Spaces:</h1>
@@ -118,7 +89,7 @@
 	    
 	    <div class="slide">
 		    
-		    
+		    <img src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
 		    <div class="my_captions">
 			    
 			    <h1>2.  sup</h1>
@@ -129,7 +100,10 @@
 	    </div><!-- slide -->
 	    
 
-				</div><!-- cycle slideshow -->
+									 
+									 </div><!-- cycle slideshow -->
+									 
+			</div><!-- slideshow_wrapper -->
 
 		</div><!-- content -->
 		
