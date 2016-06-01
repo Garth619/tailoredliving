@@ -76,7 +76,7 @@
 	    
 	    <div class="slide">
 		    
-		    <img src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
+		    <img class="img_slide" src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
 		    <div class="my_captions">
 			    
 			    <h1>1. Organized Work Spaces:</h1>
@@ -89,7 +89,7 @@
 	    
 	    <div class="slide">
 		    
-		    <img src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
+		    <img class="img_slide" src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
 		    <div class="my_captions">
 			    
 			    <h1>2.  sup</h1>

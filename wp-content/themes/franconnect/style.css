@@ -1002,6 +1002,7 @@ a.phone_number {
 	
 	.slideshow_wrapper {
 		position: relative;
+		margin-bottom:35px;
 	}
 	
 	#custom-caption {
@@ -1014,14 +1015,22 @@ a.phone_number {
 		right: 3px;
     top: 3px;
     padding:0 10px;
+   -webkit-box-shadow: -1px 1px 1px 0px rgba(0,0,0,0.36);
+-moz-box-shadow: -1px 1px 1px 0px rgba(0,0,0,0.36);
+box-shadow: -1px 1px 1px 0px rgba(0,0,0,0.36);
+text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
 	}
 	
 	.cycle-slideshow {
+		
+		
+	}
+	
+	.img_slide {
 		border:3px #fff solid;
 		-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
 		-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
 		box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
-		
 	}
 	
 
@@ -1030,17 +1039,44 @@ a.phone_number {
 	display: inline-block;
 	position: absolute;
 	z-index:400;
-	top:15%;
+	top:30%;
 	color:#fff;
 	padding:0 5px;
+	cursor: pointer;
+	text-shadow: 0px 1px 1px rgba(150, 150, 150, 1);
+
 }
 
 #prev {
 	left:3px;
+	-webkit-box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.36);
+	-moz-box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.36);
+	box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.36);
 }
 
 #next {
 	right:3px;
+	-webkit-box-shadow: -1px 0px 1px 0px rgba(0,0,0,0.36);
+-moz-box-shadow: -1px 0px 1px 0px rgba(0,0,0,0.36);
+box-shadow: -1px 0px 1px 0px rgba(0,0,0,0.36);
+}
+
+.my_captions {
+	background:#000;
+	color:#fff;
+	font-size:14px;
+	line-height: 1.2;
+	padding:10px;
+	}
+
+#content .my_captions h1 {
+	color:#fff;
+	font-size:20px;
+	margin-bottom:9px;
+}
+
+#content .my_captions p {
+	margin-bottom: 0;
 }
 	
 	.os-responsive, .os-responsive-icon-only {
@@ -1106,7 +1142,7 @@ img.aligncenter {
 	
 
 
-@media screen and (min-width: 1055px) {
+@media screen and (min-width: 950px) {
 	
 	
 	
