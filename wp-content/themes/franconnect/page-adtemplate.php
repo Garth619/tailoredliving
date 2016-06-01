@@ -62,14 +62,45 @@
 			
 			<div class="slideshow_wrapper">
 				
+				<div id="custom-caption" class="center"></div>
+				
 				<span id=prev>&lt;Prev </span>
         <span id=next> Next&gt;</span>
 			
-				<div class="cycle-slideshow" data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz>
+				<div class="cycle-slideshow" data-cycle-timeout=0 data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz data-cycle-caption="#custom-caption" data-cycle-caption-template="Solution {{slideNum}} of {{slideCount}}" data-cycle-slides="> .slide" data-cycle-auto-height=container>
+	    
+	    
+	    <div class="slide">
+		    
+		    <img src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
+		    <div class="my_captions">
+			    
+			    <h1>1. Organized Work Spaces:</h1>
+			    <p>Use open shelves in conjunction with cabinets for the most efficient storage. Open shelves leave everyday items readily available, while the cabinets work better for storage and hiding the clutter. This picture perfect laundry station also functions as an amazing workbench with plenty of counter space!</p>
+			    
+		    </div><!-- my_captions -->
+		    
+	    </div><!-- slide -->
+	    
+	    
+	    <div class="slide">
+		    
+		    <img src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
+		    <div class="my_captions">
+			    
+			    <h1>2.  sup</h1>
+			    <p>slideshow</p>
+			    
+		    </div><!-- my_captions -->
+		    
+	    </div><!-- slide -->
+	    
 									 
+<!--
 					<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
 					<img class="slide"src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
 					<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
+-->
 									 
 									 
 				</div><!-- cycle slideshow -->
