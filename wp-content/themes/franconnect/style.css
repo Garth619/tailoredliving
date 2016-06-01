@@ -1002,7 +1002,9 @@ a.phone_number {
 	
 	.slideshow_wrapper {
 		position: relative;
-		margin-bottom:35px;
+		
+		max-width:646px;
+		margin:0 auto 35px;
 	}
 	
 	#custom-caption {
@@ -1098,6 +1100,36 @@ box-shadow: -1px 0px 1px 0px rgba(0,0,0,0.36);
 		.os-responsive, .os-responsive-icon-only {
     	padding-right: 55px !important;
    	}
+		
+		
+	}
+	
+	@media screen and (min-width: 511px)  {
+		
+		#prev, #next {
+			top:35%;
+		}
+		
+		
+		
+	}
+	
+	
+	@media screen and (min-width: 646px)  {
+		
+		.my_captions {
+			margin-top:-126px;
+			margin-left:3px;
+			margin-right:3px;
+			background: rgba(0, 0, 0, 0.8);
+			position: relative;
+			z-index:450;
+			height:117px;
+		}
+		
+		#custom-caption, #prev, #next {
+			font-size:20px;
+		}
 		
 		
 	}
