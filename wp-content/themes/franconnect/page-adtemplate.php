@@ -65,7 +65,7 @@
 				<span id=prev>&lt;Prev </span>
         <span id=next> Next&gt;</span>
 			
-				<div class="cycle-slideshow" data-cycle-prev="#prev" data-cycle-next="#next">
+				<div class="cycle-slideshow" data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz>
 									 
 					<img class="slide" src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
 					<img class="slide"src="<?php bloginfo('template_directory');?>/images/slide.jpg"/>
