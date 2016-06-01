@@ -161,7 +161,24 @@ In-Home Consultation</h1>
 
 <div class="sticky_footer">
 	
-	<a href="#form" class="schedule">Schedule Your In-Home Consultation</a>
+<!-- 	<a href="#form" class="schedule">Schedule Your In-Home Consultation</a> -->
+
+<div class="consultaion">
+	
+	
+	<span>Free Consultation</span>
+	
+	
+</div><!-- consultaion -->
+
+
+<div class="call_now">
+	
+	
+	<span>Call Now</span>
+	
+	
+</div><!-- call_now -->
 	
 	
 	

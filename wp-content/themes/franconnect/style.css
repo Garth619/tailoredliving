@@ -300,7 +300,7 @@ a:hover {
 	background: #f2f7fc;
 }
 .hentry {
-	margin: 0 0 48px 0;
+/* 	margin: 0 0 48px 0; */
 }
 .home .sticky {
 	background: #f2f7fc;
@@ -883,13 +883,31 @@ a.phone_number {
 }
 
 .sticky_footer {
-	background:#7e9aa6;
+/* 	background:#7e9aa6; */
 	width:100%;
 	position:fixed;
 	bottom:0;
 	z-index:500;
 	text-align: center;
-	padding:8px 0;
+	color:#fff;
+	
+}
+
+.consultaion {
+	width:50%;
+	float:left;
+	background:#8dc641;
+	padding:10px 0;
+	font-size:20px;
+}
+
+
+.call_now {
+	width:50%;
+	float:left;
+	background:#009ddc;
+	padding:10px 0;
+	font-size:20px;
 }
 
 .sticky_footer a {
@@ -919,7 +937,7 @@ a.phone_number {
 }
 
 .sidebar {
-	background:#7e9aa6;
+	background:#019ddc;
 	padding:20px 30px;
 
 }
@@ -954,7 +972,7 @@ a.phone_number {
 	}
 	
 	#content input.gform_button, input.gform_button {
-		background: #000;
+		background: #8dc641;
 		padding: 2px 0 2px 0px;
 		color:#fff;
 		cursor:pointer;
@@ -1084,6 +1102,11 @@ box-shadow: -1px 0px 1px 0px rgba(0,0,0,0.36);
 	.os-responsive, .os-responsive-icon-only {
      padding-right: 0px !important;
    }
+   
+   
+.validation_message, div.gfield_description.validation_message {
+	color:yellow;
+}
 	
 	
 	@media screen and (min-width: 300px)  {
@@ -1215,7 +1238,7 @@ img.aligncenter {
 	#content {
 		float:left;
 		width:65%;
-		margin-right:4%;
+		margin-right:3%;
 	}
 	
 	.sticky_footer {
@@ -1239,7 +1262,7 @@ img.aligncenter {
 	.sidebar {
 		float:left;
 		width:31%;
-		margin:6px 0 0 0%;
+		
 	}
 	
 	.desktop_footer {
