@@ -67,8 +67,9 @@
 				<span id=prev>&lt;Prev </span>
         <span id=next> Next&gt;</span>
 			
-				<div class="cycle-slideshow" data-cycle-timeout=0 data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz data-cycle-caption="#custom-caption" data-cycle-caption-template="Solution {{slideNum}} of {{slideCount}}" data-cycle-slides="> .slide" data-cycle-auto-height=container>
+				<div class="cycle-slideshow" data-cycle-timeout=0 data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-swipe=true data-cycle-swipe-fx=scrollHorz data-cycle-caption="#custom-caption" data-cycle-caption-template="Solution {{slideNum}} of {{slideCount}}" data-cycle-slides="> .slide" >
 	    
+<!-- 	    data-cycle-auto-height=container -->
 	    
 	    <div class="slide">
 		    
