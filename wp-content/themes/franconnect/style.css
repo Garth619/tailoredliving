@@ -988,7 +988,7 @@ a.phone_number {
 		border:3px #fff solid;
 		-webkit-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
 		-moz-box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
-		box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.75);
+		box-shadow: 0px 0px 2px 0px rgba(0,0,0,0.7);
 		
 	}
 	
@@ -1015,10 +1015,10 @@ a.phone_number {
 		right: 3px;
     top: 3px;
     padding:0 10px;
-   -webkit-box-shadow: -1px 1px 1px 0px rgba(0,0,0,0.36);
--moz-box-shadow: -1px 1px 1px 0px rgba(0,0,0,0.36);
-box-shadow: -1px 1px 1px 0px rgba(0,0,0,0.36);
-text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
+   -webkit-box-shadow: -1px 1px 1px 0px rgba(0,0,0,0.2);
+-moz-box-shadow: -1px 1px 1px 0px rgba(0,0,0,0.2);
+box-shadow: -1px 1px 1px 0px rgba(0,0,0,0.2);
+text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.5);
 	}
 	
 	.cycle-slideshow {
@@ -1043,15 +1043,15 @@ text-shadow: 0px 1px 1px rgba(0, 0, 0, 1);
 	color:#fff;
 	padding:0 5px;
 	cursor: pointer;
-	text-shadow: 0px 1px 1px rgba(150, 150, 150, 1);
+	text-shadow: 0px 1px 1px rgba(150, 150, 150, 0.5);
 
 }
 
 #prev {
 	left:3px;
-	-webkit-box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.36);
-	-moz-box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.36);
-	box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.36);
+	-webkit-box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.2);
+	-moz-box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.2);
+	box-shadow: 1px 0px 1px 0px rgba(0,0,0,0.2);
 }
 
 #next {
@@ -1071,7 +1071,7 @@ box-shadow: -1px 0px 1px 0px rgba(0,0,0,0.36);
 
 #content .my_captions h1 {
 	color:#fff;
-	font-size:20px;
+	font-size:18px;
 	margin-bottom:9px;
 }
 
