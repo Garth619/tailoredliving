@@ -978,6 +978,8 @@ a.phone_number {
 		color:#fff;
 		cursor:pointer;
 		transition:all .3s ease; 
+		-webkit-appearance: none;
+		border-radius: 0;
 	}
 	
 	input.gform_button:hover {
