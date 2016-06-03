@@ -969,6 +969,8 @@ a.phone_number {
 		border:none;
 		padding: 2px 0 2px 5px;
 		font-size:17px;
+		-webkit-appearance: none;
+		border-radius: 0;
 		
 	}
 	

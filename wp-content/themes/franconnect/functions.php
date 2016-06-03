@@ -112,7 +112,11 @@ function my_jquery_enqueue() {
 
 
 
+
+
   function slideshow_shortcode() {
+	  
+	  
     return '<div class="slideshow_wrapper">
 				
 				<div id="custom-caption" class="center"></div>
@@ -129,7 +133,7 @@ function my_jquery_enqueue() {
 	    
 	    <div class="slide">
 		    
-		    <img class="img_slide" src="http://tailoredliving.com/new-location/wp-content/themes/franconnect/images/slide.jpg"/>
+		    <img class="img_slide" src="' . get_bloginfo('template_directory') . '/images/slide.jpg"/>
 		    <div class="my_captions">
 			    
 			    <h1>1. Organized Work Spaces:</h1>
@@ -142,7 +146,7 @@ function my_jquery_enqueue() {
 	    
 	    <div class="slide">
 		    
-		    <img class="img_slide" src="http://tailoredliving.com/new-location/wp-content/themes/franconnect/images/slide2.jpg"/>
+		    <img class="img_slide" src="' . get_bloginfo('template_directory') . '/images/slide2.jpg"/>
 		    <div class="my_captions">
 			    
 			    <h1>2. Custom Garage Cabinets:</h1>
@@ -155,7 +159,7 @@ function my_jquery_enqueue() {
 	    
 	    <div class="slide">
 		    
-		    <img class="img_slide" src="http://tailoredliving.com/new-location/wp-content/themes/franconnect/images/slide3.jpg"/>
+		    <img class="img_slide" src="' . get_bloginfo('template_directory') . '/images/slide3.jpg"/>
 		    <div class="my_captions">
 			    
 			    <h1>3. Garage Accessories</h1>
@@ -168,7 +172,7 @@ function my_jquery_enqueue() {
 	    
 	    <div class="slide">
 		    
-		    <img class="img_slide" src="http://tailoredliving.com/new-location/wp-content/themes/franconnect/images/slide4.jpg"/>
+		    <img class="img_slide" src="' . get_bloginfo('template_directory') . '/images/slide4.jpg"/>
 		    <div class="my_captions">
 			    
 			    <h1>4. Garage Floor</h1>
