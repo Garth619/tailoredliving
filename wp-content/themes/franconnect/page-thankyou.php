@@ -49,7 +49,7 @@
 		
 		<div id="content">
 			
-			<div class="new_banner">
+			<div class="new_banner" style="background: rgba(0, 0, 0, 0.5) url(<?php the_field('banner');?>) no-repeat scroll center top / cover;">
 				
 				<h1><?php the_field('title');?></h1>
 				
@@ -66,7 +66,7 @@
 		
 				
 		<div class="mobile_copyright">
-	<span>&copy; 2016 2016 Tailored Living, LLC. All rights reserved. Each franchise independently owned and operated. Tailored Living featuring PremierGarage is a trademark of Tailored Living, LLC and a Home Franchise Concepts brand. </span>
+	<span>&copy; 2016 2016 Tailored Living, LLC. All rights reserved. Each franchise independently owned and operated. Tailored Living featuring PremierGarage is a trademark of Tailored Living, LLC and a Home Franchise Concepts&nbsp;brand. </span>
 </div><!-- mobile_copyright -->
 		
 	</div><!-- main -->

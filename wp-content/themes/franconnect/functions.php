@@ -189,6 +189,76 @@ function my_jquery_enqueue() {
 			</div>';
 }
 add_shortcode('slideshow', 'slideshow_shortcode');
+
+
+
+
+
+function slideshowtwo_shortcode() {
+	  
+	  
+    return '<div class="slideshow_wrapper">
+				
+				<div id="custom-caption" class="center"></div>
+				
+				<div id=prev>&lt;Prev </div>
+        <div id=next> Next&gt;</div>
+			
+				
+				
+				<div class="cycle-slideshow" data-cycle-timeout=0 data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-swipe=true data-cycle-swipe-fx=fade data-cycle-caption="#custom-caption" data-cycle-caption-template="Slide {{slideNum}} of {{slideCount}}" data-cycle-slides="> .slide">
+					
+					
+	    
+	    
+	    <div class="slide">
+		    
+		    <img class="img_slide" src="' . get_bloginfo('template_directory') . '/images/closet.jpg"/>
+		    
+		    
+	    </div>
+	    
+	    
+	    <div class="slide">
+		    
+		    <img class="img_slide" src="' . get_bloginfo('template_directory') . '/images/jewelry.jpg"/>
+		    		    
+	    </div>
+	    
+	    
+	    <div class="slide">
+		    
+		    <img class="img_slide" src="' . get_bloginfo('template_directory') . '/images/belt.jpg"/>
+		    
+		    
+	    </div>
+	    
+	    
+	    <div class="slide">
+		    
+		    <img class="img_slide" src="' . get_bloginfo('template_directory') . '/images/shoe.jpg"/>
+		    
+		    
+	    </div>
+	    
+	    
+	    
+	    <div class="slide">
+		    
+		    <img class="img_slide" src="' . get_bloginfo('template_directory') . '/images/fullcloset.jpg"/>
+		    		    
+	    </div>
+	    
+	    
+	    
+	    
+
+									 
+									 </div>
+									 
+			</div>';
+}
+add_shortcode('slideshowtwo', 'slideshowtwo_shortcode');
 	
 	
 
