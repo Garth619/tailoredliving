@@ -194,6 +194,100 @@ add_shortcode('slideshow', 'slideshow_shortcode');
 
 
 
+
+
+
+
+function slideshowtoronto_shortcode() {
+	  
+	  
+    return '<div class="slideshow_wrapper">
+				
+				<div id="custom-caption" class="center"></div>
+				
+				<div id=prev>&lt;Prev </div>
+        <div id=next> Next&gt;</div>
+			
+				
+				
+				<div class="cycle-slideshow" data-cycle-timeout=0 data-cycle-prev="#prev" data-cycle-next="#next" data-cycle-swipe=true data-cycle-swipe-fx=fade data-cycle-caption="#custom-caption" data-cycle-caption-template="Solution {{slideNum}} of {{slideCount}}" data-cycle-slides="> .slide">
+					
+					
+	    
+	    
+	    <div class="slide">
+		    
+		    <img class="img_slide" src="' . get_bloginfo('template_directory') . '/images/slide.jpg"/>
+		    <div class="my_captions">
+			    
+			    <h1>1. Organized Work Spaces:</h1>
+			    <p>Use open shelves in conjunction with cabinets for the most efficient storage. Open shelves leave everyday items readily available, while the cabinets work better for storage and hiding the clutter. This picture perfect laundry station also functions as an amazing workbench with plenty of counter&nbsp;space!</p>
+			    
+		    </div>
+		    
+	    </div>
+	    
+	    
+	    <div class="slide">
+		    
+		    <img class="img_slide" src="' . get_bloginfo('template_directory') . '/images/slide2.jpg"/>
+		    <div class="my_captions">
+			    
+			    <h1>2. Custom Garage Cabinets:</h1>
+			    <p>Getting everything up off the floor and behind closed doors keeps your garage looking immaculate all year round. Our customized garage cabinets can be perfectly tailored to fit exactly what will be inside. Our cabinets will maximize your storage space and free up room to park all of your&nbsp;toys.</p>
+			    
+		    </div>
+		    
+	    </div>
+	    
+	    
+	    <div class="slide">
+		    
+		    <img class="img_slide" src="' . get_bloginfo('template_directory') . '/images/tor1.jpg"/>
+		    <div class="my_captions">
+			    
+			    <h1>3. Garage Accessories</h1>
+			    <p>Our garage accessories provide new and innovative ways to give your clutter a place. We have everything including gridwall storage, overhead storage racks, bike hoists, baskets for sporting goods, slatwall panels and so much more. Pick and choose your favorite to customize your garage with exactly what you&nbsp;need!</p>
+			    
+		    </div>
+		    
+	    </div>
+	    
+	    
+	    <div class="slide">
+		    
+		    <img class="img_slide" src="' . get_bloginfo('template_directory') . '/images/tor2.jpg"/>
+		    <div class="my_captions">
+			    
+			    <h1>4. Garage Floor</h1>
+			    <p>Part of organization is keeping the garage clean and user-friendly. Our PremiereOne® garage flooring is strong enough to withstand daily wear but, stylish enough to keep your garage looking neat and tidy. With a wide variety of color and finish options there is a floor for&nbsp;everyone.</p>
+			    
+		    </div>
+		    
+	    </div>
+	    
+
+									 
+									 </div>
+									 
+			</div>';
+}
+add_shortcode('slideshowtoronto', 'slideshowtoronto_shortcode');
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function slideshowtwo_shortcode() {
 	  
 	  
