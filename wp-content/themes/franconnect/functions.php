@@ -247,7 +247,7 @@ function slideshowtoronto_shortcode() {
 		    <div class="my_captions">
 			    
 			    <h1>3. Garage Accessories</h1>
-			    <p>Our garage accessories provide new and innovative ways to give your clutter a place. We have everything including gridwall storage, overhead storage racks, bike hoists, baskets for sporting goods, slatwall panels and so much more. Pick and choose your favorite to customize your garage with exactly what you&nbsp;need!</p>
+			    <p>Our garage accessories provide new and innovative ways to give your clutter a place. We have everything including overhead storage racks, bike hoists, slatwall panels, baskets and hooks for sporting goods and so much more.Pick and choose to customize your garage with exactly what you&nbsp;need!</p>
 			    
 		    </div>
 		    
